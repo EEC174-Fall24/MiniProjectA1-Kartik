@@ -21,7 +21,8 @@ Or, you will find the weights at this location on the server (you can copy `yolo
 ## Pre-Lab: Bounding Boxes & IoU
 
 Please make sure to complete and commit [PreLab.ipynb](PreLab.ipynb) before lab starts. Do not make any commits after.
-*Update*: PreLab will now be a part of the lab due when A1 is due!! It is not due before lab.
+
+***Update:***: PreLab will now be a part of the lab due when A1 is due!! It is not due before lab.
 
 You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg). You are also given the ground truth bounding box labels (`gt_box`) in `x, y, w, h` format. Please do not change the image. 
 
@@ -38,7 +39,8 @@ Instructions are also provided in the notebook. Please see the expected output f
 ![kartik_prelab.png](kartik_prelab.png)
 
 Please make sure to push `PreLab.ipynb` before lab starts.
-*Update*: PreLab is no longer due before lab but is a part of A1! :) 
+
+***Update:*** PreLab is no longer due before lab but is a part of A1! :) 
 
 ## YOLO Tutorial
 
