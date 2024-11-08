@@ -1,7 +1,7 @@
 # EEC174 AY Project A1: Object Detection and Tracking
 # Instructions (Do not clone this repo!)
 
-Due Date: November 10, 2023
+Due Date: November 22, 2024
 
 The focus of this lab is to learn how to apply YOLO on images & videos. In Phase 1 you will learn to load the YOLOv3 model into OpenCV, create blobs for OpenCV, detect objects, draw bounding boxes, and add labels onto images. In Phase 2 you will use open-source MOT solutions with YOLO to perform object tracking on video inputs. Please read all the instructions carefully.
 
@@ -21,6 +21,8 @@ Or, you will find the weights at this location on the server (you can copy `yolo
 ## Pre-Lab: Bounding Boxes & IoU
 
 Please make sure to complete and commit [PreLab.ipynb](PreLab.ipynb) before lab starts. Do not make any commits after.
+*Update*: PreLab will now be a part of the lab due when A1 is due!! It is not due before lab.
+
 You are provided with inital code to read and show [imgs/cat.jpg](imgs/cat.jpg). You are also given the ground truth bounding box labels (`gt_box`) in `x, y, w, h` format. Please do not change the image. 
 
 ***Note:*** Some of you may have a typo in `PreLab.ipynb` Part 1. Please make sure `image_path` is `imgs/cat.jpg` (do not use `cats.jpg`). If your PreLab.ipynb is already using `cat.jpg`, please ignore this!
@@ -35,7 +37,8 @@ Instructions are also provided in the notebook. Please see the expected output f
 
 ![kartik_prelab.png](kartik_prelab.png)
 
-Please make sure to push `PreLab.ipynb` before lab starts on Nov 3.
+Please make sure to push `PreLab.ipynb` before lab starts.
+*Update*: PreLab is no longer due before lab but is a part of A1! :) 
 
 ## YOLO Tutorial
 
@@ -180,9 +183,8 @@ Finally, utilize the SORT tracker to assign IDs to bounding boxes to track and c
 
 - Pre-Lab: 10%
 - Phase 1: 30%
-- Phase 2: 45%
-- Program usability, readability & design: 5%
-- Interactive Grading: 10%
+- Phase 2: 50%
+- Program usability, readability & design: 10%
 
 You are allowed to work in pairs for this assignment. Please avoid excessive collaboratation with other groups. Please do not use code from SORT repo, only the [sort.py](src/sort.py) provided in your repository.
 
@@ -192,15 +194,12 @@ Make sure your output matches the provided [kartik_prelab.png](kartik_prelab.png
 #### Phase 1 (30%)
 Your script will be run on a new set of images and directory of images. Full functionality will be tested to make sure the correct information is reported from your script. You can easily identify and test your output by observing the given images. You can visually check the images and count the bounding boxes, check the class names.
 
-#### Phase 2 (40%)
+#### Phase 2 (50%)
 The TA program detects total 107 people at the end of the video. The sample video also provides a working demo. During Lab walkthrough, the TA will go over the output video and what to expect.
 The colors, location of counter can vary as long as all information is correct. you can test and debug your code by saving some initial frames.
 
 #### Program Usability, Readability & Design (10%)
 Please make sure your programs are well commented and readable. Make sure to adress invalid CLI inputs or missing inputs. If the programs are used incorrectly, your programs should exit safetly and output the correct use. Have functions wherever necessary for readability.
-
-#### Interactive Grading (10%)
-Since this is a group assignment, there will be interactive grading for this project. This is just to verify that all members understand the code fully. Hence, this will be individual -- to make sure you succeed, make sure you understand all of your submitted code, even if there are parts you did not code yourself. Interactive grading will be done during lab hours the week after assignment is due.
 
 ## Submission
 
@@ -212,7 +211,7 @@ Graded files:
 
 ## Credits
 
-Kartik Patwari, Jeff Lai, and Chen-Nee Chuah
+Kartik Patwari, Yui Ishihara, Jeff Lai, and Chen-Nee Chuah
 
 ## References
 
